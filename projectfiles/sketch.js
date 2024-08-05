@@ -1,7 +1,7 @@
 let img;
 
 function preload() {
-  img = loadImage("https://picsum.photos/200/300");
+  img = loadImage("https://picsum.photos/500/500");
 }
 
 function setup() {
@@ -18,7 +18,7 @@ function setup() {
       let h = hue(colour)
       let s = saturation(colour);
       let b = brightness(colour)
-      fill(225, 255, b);
+      fill(0, 255, b);
       rect(x,y,1,1)
       colorMode(RGB);
     }
